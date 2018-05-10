@@ -1,0 +1,58 @@
+/*
+Author: Adrianne Stone
+Author URI: https://www.adrianneelayne.com/
+Description: Portfolio page for Udacity Front-End Development Course
+Version: 1.0
+*/
+
+:root {
+  --jumbotron-padding-y: 3rem;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+html>body .page-backdrop {
+  height:auto;
+}
+
+body {
+  color: #ffffff;
+}
+
+.page-backdrop {
+  background: rgb(170,0,255);
+  background: linear-gradient(to left bottom, #AA00FF,#009DFF, #00D6FF,#3CFCE9);
+  height:100%;
+  min-height:100%;/*for mozilla*/
+}
+
+.portfolio-header .tagline {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.header-logo {
+  max-height: 100px;
+}
+
+.jumbotron {
+  padding-top: var(--jumbotron-padding-y);
+  padding-bottom: var(--jumbotron-padding-y);
+  background-image: url('/Users/adriannestone/Dropbox/Code/Udacity Google Front End/FEND Portfolio/portfolio-site/images/styled-desktop.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: #aa00ff;
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: calc(var(--jumbotron-padding-y) * 4);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 4);
+    background-position: center;
+    background-size: cover;
+  }
+}
