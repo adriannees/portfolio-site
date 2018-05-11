@@ -1,0 +1,47 @@
+/*
+Author: Adrianne Stone
+Author URI: https://www.adrianneelayne.com/
+Description: Portfolio page for Udacity Front-End Development Course
+Version: 1.0
+*/
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+html>body .page-backdrop {
+  height:auto;
+}
+
+body {
+  color: #ffffff;
+}
+
+.page-backdrop {
+  background: rgb(170,0,255);
+  background: linear-gradient(to left bottom, #AA00FF,#009DFF, #00D6FF,#3CFCE9);
+  height:100%;
+  min-height:100%;/*for mozilla*/
+}
+
+@media only screen and (max-width: 350px) {
+    h1.title {
+        font-size:2.25rem;
+    }
+}
+
+.header-logo {
+  max-height: 100px;
+  min-width: 50px;
+}
+
+.portfolio-header .tagline {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+#hero-image img {
+  min-height: 100px;
+}
