@@ -25,10 +25,14 @@ body {
   min-height:100%;/*for mozilla*/
 }
 
-@media only screen and (max-width: 350px) {
-    h1.title {
-        font-size:2.25rem;
-    }
+h1.title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 4rem;
+}
+
+h2.billboard{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 3rem;
 }
 
 .header-logo {
@@ -44,4 +48,27 @@ body {
 
 #hero-image img {
   min-height: 100px;
+}
+
+/** Media Queries **/
+
+@media only screen and (max-width: 668px) {
+  h1.title {
+    font-size:3.25rem;
+  }
+}
+
+@media only screen and (max-width: 548px) {
+  h1.title {
+    font-size: 2.25rem;
+  }
+  .header-logo {
+    max-height: 85px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  h1.title {
+    font-size:1.75rem;
+  }
 }
