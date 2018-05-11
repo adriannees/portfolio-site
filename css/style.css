@@ -6,7 +6,7 @@ Version: 1.0
 */
 
 :root {
-  --jumbotron-padding-y: 3rem;
+  --jumbotron-padding-y: 5rem;
 }
 
 html, body {
@@ -37,7 +37,14 @@ body {
 
 .header-logo {
   max-height: 100px;
+  max-width: 100px;
 }
+
+/*.logo-link img {
+  display: block;
+  max-width: 100%:
+}
+*/
 
 .jumbotron {
   padding-top: var(--jumbotron-padding-y);
@@ -50,8 +57,8 @@ body {
 
 @media (min-width: 768px) {
   .jumbotron {
-    padding-top: calc(var(--jumbotron-padding-y) * 4);
-    padding-bottom: calc(var(--jumbotron-padding-y) * 4);
+    padding-top: calc(var(--jumbotron-padding-y) * 1.5);
+    padding-bottom: calc(var(--jumbotron-padding-y) * 1.5);
     background-position: center;
     background-size: cover;
   }
